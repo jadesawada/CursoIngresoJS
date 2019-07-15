@@ -4,6 +4,19 @@ function mostrar()
 	
 	var aleatorio;
 
-	aleatorio = Math.floor (Math.random ()*(10-1)) + 10 
+	aleatorio = document.getElementById ("aleatorio").value;
+
+	Math.floor (Math.random () * 11)
+
+	if(aleatorio >=1)
+	{
+		if(aleatorio <=10)
+		{
+			alert("Numero random" + aleatorio);
+		}
+	}
+	
+
+
 
 }//FIN DE LA FUNCIÓN
